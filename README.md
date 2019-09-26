@@ -8,4 +8,4 @@ Hugo Passos and Ronald Tingchaleun
 https://www.theodinproject.com/courses/ruby-programming/lessons/testing-your-ruby-code
 
 # Project Description
-Learning to test Ruby code with Rspec
+Learning to test Tic Tac Toe Ruby code with Rspec
