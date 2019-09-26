@@ -6,11 +6,11 @@ require_relative '../lib/game.rb'
 require_relative '../lib/player.rb'
 
 RSpec.describe Game do
-  let(:player_one) { Player.new("Hugo", "X") }
-  let(:player_two) { Player.new("Ron", "O") }
+  let(:player_one) { Player.new('Hugo', 'X') }
+  let(:player_two) { Player.new('Ron', 'O') }
   let(:game) { Game.new(player_one, player_two) }
-  let(:player_one_name) { "Hugo" }
-  let(:player_two_name) { "Ron" }
+  let(:player_one_name) { 'Hugo' }
+  let(:player_two_name) { 'Ron' }
   let(:valid) { [true, ''] }
   let(:invalid) { [false, 'Invalid entry, values must be between 1 and 9.'] }
   let(:invalid_not_empty) { [false, 'Invalid entry, you should choose an empty square.'] }
